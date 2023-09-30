@@ -9,7 +9,7 @@ body {
   /*background-color: #ccc;*/
   /*padding: 300px;*/
   width: auto;
-  height: 150vh;
+  height: 170vh;
   position: relative;
 }
 
@@ -54,4 +54,33 @@ body {
   flex-direction: row;
   text-align: center;
   transform: translateY(-50%);
+}
+
+.main{
+  position: relative;;
+  width: auto;
+  height: auto;
+}
+
+.p1{
+  position: absolute;
+  width: 700px;
+  height: auto;
+  font-size: 30px;
+  font-family: arial, "Hiragino Sans";
+  text-align: left;
+  left: 56%;
+  transform: translateX(-50%);
+}
+
+.p2{
+  position: absolute;
+  width: 700px;
+  height: auto;
+  font-size: 30px;
+  font-family: arial, "Hiragino Sans";
+  text-align: left;
+  left: 56%;
+  transform: translateX(-50%);
+  padding-top: 45px;
 }
