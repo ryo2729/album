@@ -16,7 +16,7 @@ body {
   .whats{
     position: absolute;
     width: auto;
-    height: auto;
+    height: 100dvh;
     font-size: 90px;
     font-family: arial;
     bottom: -50px;
