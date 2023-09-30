@@ -3,13 +3,13 @@ body {
   height: 400vh;
   background-image: url(IMG_0198.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .wrapper {
   /*background-color: #ccc;*/
   /*padding: 300px;*/
   width: auto;
-  height: 50%;
+  height: 150vh;
   position: relative;
 }
 
