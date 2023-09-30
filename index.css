@@ -3,7 +3,7 @@ body {
   height: 400vh;
   background-image: url(IMG_0198.jpeg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .wrapper {
   /*background-color: #ccc;*/
