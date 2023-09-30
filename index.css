@@ -9,23 +9,48 @@ body {
     /*background-color: #ccc;*/
     /*padding: 300px;*/
     height: 200vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .whats{
+    position: absolute;
     width: auto;
+    height: 3.5%;
+    font-size: 90px;
+    font-family: arial;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-right: 700px;
+  }
+
+  .question{
+    position: absolute;
+    width: auto;
+    height: 3.5%;
+    font-size: 90px;
+    font-family: arial;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 500px;
   }
 
   .sticky {
     /*background-color: #009688;*/
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 75px;
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    /*left: 0;*/
+    top: 50%;
     color: black;
     display: flex;
-    font-size: 44px;
-    font-weight: bold;
+    font-family: arial;
+    font-size: 90px;
+    font-weight: normal;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
