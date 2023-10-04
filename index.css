@@ -1,24 +1,25 @@
 body {
   width: auto;
-  height: 400vh;
+  height: 2500px;
   background-image: url(IMG_0198.jpeg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  font-family: arial, "Hiragino Sans";
+  position: relative;
 }
 .wrapper {
   /*background-color: #ccc;*/
   /*padding: 300px;*/
   width: auto;
-  height: 170vh;
+  height: 1800px;
   position: relative;
+  font-size: 90px;
 }
 
 .whats{
   position: absolute;
   width: auto;
-  height: 103px;
-  font-size: 90px;
-  font-family: arial;
+  height: auto;
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -28,9 +29,7 @@ body {
 .question{
   position: absolute;
   width: auto;
-  height: 103px;
-  font-size: 90px;
-  font-family: arial;
+  height: auto;
   bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -46,9 +45,6 @@ body {
   top: 50%;
   color: black;
   display: flex;
-  font-family: arial;
-  font-size: 90px;
-  font-weight: normal;
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -56,31 +52,87 @@ body {
   transform: translateY(-50%);
 }
 
+.main-wrapper{
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .main{
-  position: relative;;
+  position: relative;
   width: auto;
   height: auto;
-}
+  }
 
-.p1{
-  position: absolute;
-  width: 700px;
+.main p{
+  position: relative;
+  width: auto;
   height: auto;
   font-size: 30px;
-  font-family: arial, "Hiragino Sans";
   text-align: left;
-  left: 56%;
-  transform: translateX(-50%);
+  padding-left: 100px;
 }
 
-.p2{
-  position: absolute;
-  width: 700px;
+
+.direction{
+position: relative;
+width: auto;
+height: auto;
+}
+
+.direction p{
+  position: relative;
+  width: auto;
   height: auto;
-  font-size: 30px;
-  font-family: arial, "Hiragino Sans";
+  font-size: 20px;
   text-align: left;
-  left: 56%;
-  transform: translateX(-50%);
-  padding-top: 45px;
+  border: solid;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 60px
+
+}
+
+.next{
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px; 
+  margin-bottom: 70px;
+}
+
+.next p{
+  font-size: 35px;
+  margin:0%
+}
+
+.next img{
+  width: 35px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0%;
+  background-color: black;
+}
+
+footer p{
+  width: 249px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  color: azure;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
