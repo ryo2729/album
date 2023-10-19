@@ -160,29 +160,9 @@
     /*background-color: #ccc;*/
     /*padding: 300px;*/
     width: auto;
-    height: 150vh;
+    height: 65%;
     position: relative;
   }
-  
-  /*.whats{
-    position: absolute;
-    width: auto;
-    height: auto;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-right: 400px;
-  }
-  
-  .question{
-    position: absolute;
-    width: auto;
-    height: auto;
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-left: 500px;
-  }*/
   
   .sticky {
     /*background-color: #009688;*/
@@ -207,13 +187,13 @@
     height: auto;
   }
   
-  .main{
+  .what{
     position: relative;
     width: auto;
     height: auto;
     }
   
-  .main p{
+  .what p{
     position: relative;
     width: auto;
     height: auto;
