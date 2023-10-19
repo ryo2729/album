@@ -265,6 +265,12 @@
     font-weight: bold; /* 文字の太さ */
     text-decoration: none;
     text-align: center;
+    transition: 0.3s;
+  }
+
+  .next:hover {
+    color: #fff; /* 文字色 */
+    background: black;
   }
   
   
