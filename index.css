@@ -181,28 +181,27 @@
     transform: translateY(-50%);
   }
   
-  .main-wrapper{
+  .main{
     position: relative;
     width: auto;
-    height: auto;
+    height: auto;    
   }
   
   .what{
     position: relative;
     width: auto;
     height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
     }
   
   .what p{
     position: relative;
-    width: auto;
-    height: auto;
-    font-size: 15px;
     text-align: left;
-    padding-left: 16%;
-    padding-right: 14%;
-    margin-top: 0%;
+    font-size: 15px;
     font-family: arial, "Hiragino Sans";
+    margin: none;
   }
   
   
@@ -210,19 +209,15 @@
   position: relative;
   width: auto;
   height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
   }
   
   .direction p{
     position: relative;
-    width: auto;
-    height: auto;
-    font-size: 15px;
     text-align: left;
-    /*border: solid;*/
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 16%;
-    padding-right: 16%;
+    font-size: 15px;
     font-family: arial, "Hiragino Sans";
   }
   
@@ -235,9 +230,9 @@
 
   .next{
     display: inline-block;
-    width: 55px;
-    max-width: 200px; /* ボタン幅 */
+    width: 100px;
     color: black; /* 文字色 */
+    font-size: 20px;
     border: 2px solid black; /* 線幅・種類・色 */
     border-radius: 50px;
     background: #fff; /* 背景色 */
